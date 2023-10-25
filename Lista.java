@@ -10,6 +10,14 @@ class Lista {
     if (lastItem > data.length - 1) {
       data[lastItem + 1] = entrada;
       lastItem++;
+    } else {
+      String[] momentaryArray = new String[20];
+      for (int i = 0; i < data.length; i++) {
+          momentaryArray[i] = data[i];
+      }
+      momentaryArray[lastItem] = entrada;
+      lastItem++;
+      data = momentaryArray.clone();
     }
   }
 
