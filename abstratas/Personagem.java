@@ -12,14 +12,10 @@ public abstract class Personagem {
 	public abstract int causarDano();
 	public abstract void levelUp();
 
-	public Personagem(String nome, int nivel, int forca, int inteligencia, int agilidade, int vida, int defesa) {
+	public Personagem(String nome) {
 		this.nome = nome;
-		this.nivel = nivel;
-		this.forca = forca;
-		this.inteligencia = inteligencia;
-		this.agilidade = agilidade;
-		this.vida = vida;
-		this.defesa = defesa;
+		this.nivel = 1;
+		this.vida = 100;
 	}
 
 }

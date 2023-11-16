@@ -1,8 +1,11 @@
 package abstratas;
 
 public class Guerreiro extends Personagem {
-	public Guerreiro(String nome, int nivel, int forca, int inteligencia, int agilidade, int vida, int defesa) {
-		super(nome, nivel, forca, inteligencia, agilidade, vida, defesa);
+	public Guerreiro(String nome) {
+		super(nome);
+		this.forca = 12;
+		this.defesa = 16;
+		this.inteligencia = 4;
 	}
 
 	public void levelUp() {

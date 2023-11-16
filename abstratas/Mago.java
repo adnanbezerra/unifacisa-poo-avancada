@@ -1,8 +1,11 @@
 package abstratas;
 
 public class Mago extends Personagem {
-	public Mago(String nome, int nivel, int forca, int inteligencia, int agilidade, int vida, int defesa) {
-		super(nome, nivel, forca, inteligencia, agilidade, vida, defesa);
+	public Mago(String nome) {
+		super(nome);
+		this.inteligencia = 12;
+		this.defesa = 6;
+		this.agilidade = 4;
 	}
 
 	public void levelUp() {
