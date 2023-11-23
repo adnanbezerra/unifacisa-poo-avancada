@@ -3,6 +3,12 @@ package individualdois;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/**
+ * Grupo:
+ * - Adnan Medeiros
+ * - Caio Medeiros
+ */
+
 public class Agenda {
   private HashMap<Integer, String> contatos;
 
